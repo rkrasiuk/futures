@@ -1,0 +1,16 @@
+[package]
+name = "futures-ext"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3"
+pin-project = "1"
+
+[lints]
+rust.missing_debug_implementations = "warn"
+rust.missing_docs = "warn"
+rust.rust_2018_idioms = { level = "deny", priority = -1 }
+rust.unreachable_pub = "warn"
+rust.unused_must_use = "deny"
+rustdoc.all = "warn"
